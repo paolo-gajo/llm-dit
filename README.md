@@ -1,7 +1,7 @@
 test
 
-```
-function test() {
-  console.log("This code will have a copy button to the right of it");
-}
+```bash
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
 ```

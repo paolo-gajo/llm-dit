@@ -1,6 +1,6 @@
 test
 
-```bash
+```console
 #!/bin/bash
 
 ./bin/main -m /storage/llm/llama2/Llama-2-7b-chat-hf/ggml-model-f16.gguf -c 512 -b 1024 -n -1 --keep 48 \

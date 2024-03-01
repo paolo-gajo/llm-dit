@@ -1,6 +1,6 @@
-# Large Language Models @ MagaMago/John
+# Large Language Models @ DIT GPU servers
 
-This repository holds scripts for quick testing of large language models such as LLaMA on the Department for Interpreting and Translation's MagaMago server.
+This repository holds large language model resources for the GPU servers of the Department for Interpreting and Translation, University of Bologna.
 
 ## Accessing the servers
 
@@ -20,7 +20,7 @@ N.B.: John is firewall blocked, so you will need to SSH through MagaMago by putt
 Host john.sslmit.unibo.it
   ProxyJump magamago.sslmit.unibo.it
   User username
-  IdentityFile "/home/localuser/.ssh/john-key"
+  IdentityFile "~/.ssh/john-key"
 ```
 You will then be prompted to insert the password. Insert it and you will be connected.
 

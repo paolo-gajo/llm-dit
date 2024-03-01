@@ -11,7 +11,9 @@ To access the server, follow the steps below:
 
 ```console
 ssh username@magamago.sslmit.unibo.it
+```
 or
+```console
 ssh username@john.sslmit.unibo.it
 ```
 

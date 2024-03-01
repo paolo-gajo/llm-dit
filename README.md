@@ -21,8 +21,6 @@ N.B.: John is firewall blocked, so you will need to SSH through MagaMago by putt
 ```console
 Host john.sslmit.unibo.it
   ProxyJump magamago.sslmit.unibo.it
-  User username
-  IdentityFile "~/.ssh/john-key"
 ```
 You will then be prompted to insert the password. Insert it and you will be connected.
 

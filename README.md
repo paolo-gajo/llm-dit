@@ -16,12 +16,6 @@ or
 ```console
 ssh username@john.sslmit.unibo.it
 ```
-
-N.B.: John is firewall blocked, so you will need to SSH through MagaMago by putting this into your config file in ~/.ssh
-```console
-Host john.sslmit.unibo.it
-  ProxyJump magamago.sslmit.unibo.it
-```
 You will then be prompted to insert the password. Insert it and you will be connected.
 
 ## Using the models
